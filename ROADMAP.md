@@ -6,7 +6,7 @@
 
 提供一个可在 Codex 对话中调用的 `times` 技能，按需输出该对话在本地日志中记录的压缩次数。实现由 `SKILL.md` 和 Python 标准库脚本组成，安装及使用见 [README.md](README.md)。
 
-当前已经完成脚本、个人技能安装验证、本地测试和 GitHub 项目文件准备。没有为这个单一查询增加后台服务、MCP、hooks 或额外界面。
+当前已经完成脚本、个人技能安装验证、本地测试、GitHub 发布和远端 CI 验证。没有为这个单一查询增加后台服务、MCP、hooks 或额外界面。
 
 ## 必要性复核
 
@@ -55,7 +55,7 @@
 - [x] 个人技能安装及 Codex 技能发现验证。
 - [x] 真实长对话只读验证，5 次到 6 次的变化与新增记录一致。
 - [x] 通用 README、conda 环境说明、MIT 许可证、Git 忽略规则和 CI 配置。
-- [ ] 发布后验证远端 Windows / Ubuntu CI。
+- [x] 发布到 [GitHub](https://github.com/conrad-strange/compact-times)，并通过远端 Windows / Ubuntu CI。
 - [ ] 收集不同 Codex 版本的最小合成日志样本，按实际需求增加兼容支持。
 
 只有出现明确的分发需求时，才增加插件 manifest。持续监听、标题栏数字、时间线和综合 token 分析不在当前范围内。

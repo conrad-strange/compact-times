@@ -47,4 +47,4 @@ python -I skills/times/scripts/times.py --help
 
 开发时在 Windows、Python 3.11.16 上通过了单元与命令行测试。真实长对话的次数从首次读取的 5 次变为稍后读取的 6 次，与新增压缩记录及独立事件 ID 核对一致。项目没有收录该对话的标题、ID、正文或日志文件。
 
-GitHub Actions 配置了 Windows / Ubuntu、Python 3.11 的测试。远端 CI 只有在推送后才会运行，配置存在不代表已在这两个远端平台通过。
+GitHub Actions 的 Windows / Ubuntu、Python 3.11 测试均已通过；[首次远端运行记录](https://github.com/conrad-strange/compact-times/actions/runs/35176997124)包含两个平台的检查结果。

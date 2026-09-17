@@ -115,7 +115,7 @@ python -B -m unittest discover -s tests -v
 
 测试使用临时生成的合成日志，覆盖次数、去重、正文误匹配、身份校验、继承历史、归档定位、坏行和命令行调用。测试不会读取开发者的真实对话。
 
-Windows 本地测试与真实长对话读取已通过。仓库提供 Windows / Ubuntu 的 GitHub Actions 测试配置，远端结果以实际运行记录为准。
+Windows 本地测试与真实长对话读取已通过。Windows / Ubuntu、Python 3.11 的远端 CI 均已通过 13 项测试，后续提交状态见 [GitHub Actions](https://github.com/conrad-strange/compact-times/actions/workflows/tests.yml)。
 
 ```text
 skills/times/SKILL.md          技能入口
