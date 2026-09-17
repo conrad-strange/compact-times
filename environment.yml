@@ -1,0 +1,7 @@
+name: compact-counter
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+# The counter uses only the Python standard library.
+# No third-party runtime or test packages are required.

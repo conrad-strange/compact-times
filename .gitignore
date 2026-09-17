@@ -1,0 +1,27 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.conda/
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+
+# Local configuration and private conversation data
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+*.jsonl
+*.sqlite*
+*.log
+*.local.md
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
